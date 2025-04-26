@@ -43,5 +43,4 @@ class QueryAnalyzer:
             search_terms = result.get("search_terms", [query.lower()])
             return query_type, search_terms
         except Exception as e:
-            print(f"QueryAnalyzer error: {e}")  # Debug
             return "factual", [query.lower().replace("in ", "").replace("what is ", "")]  # Improved fallback

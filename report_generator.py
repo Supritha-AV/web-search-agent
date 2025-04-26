@@ -48,7 +48,6 @@ class ReportGenerator:
             report["sources"] = report["sources"][:5]
             return report
         except Exception as e:
-            print(f"Report error: {e}")
             sources = [
                 {
                     "url": item["url"],

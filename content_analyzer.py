@@ -56,7 +56,7 @@ class ContentAnalyzer:
                         "reliability_score": result["reliability_score"]
                     })
             except Exception as e:
-                print(f"Analyze error for {item['url']}: {e}")
+                
                 analyzed_data.append({
                     "url": item["url"],
                     "title": item["title"],

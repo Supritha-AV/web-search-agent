@@ -21,7 +21,6 @@ class WebScraper:
         for result in search_results:
             url = result["url"]
             if not self.can_scrape(url):
-                print(f"Blocked by robots.txt: {url}")
                 continue
             try:
                 response = requests.get(url, headers={"User-Agent": self.user_agent}, timeout=5)

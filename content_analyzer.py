@@ -18,7 +18,7 @@ class ContentAnalyzer:
         {
             "relevance_score": 0.0,
             "reliability_score": 0.0,
-            "summary": "Brief summary of the content (50-100 words)",
+            "summary": "Brief summary of the content (1000 words)",
             "is_relevant": true
         }
 

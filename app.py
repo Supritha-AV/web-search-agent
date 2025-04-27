@@ -80,11 +80,3 @@ if query:
     # Add assistant response to history
     st.session_state.messages.append({"role": "assistant", "content": response})
 
-# Instructions for running on a custom port
-st.sidebar.markdown("""
-### Run Instructions
-To run this app on a specific port (e.g., 8507), use the command:
-```bash
-streamlit run app.py --server.port 8507
-```
-""")

@@ -88,8 +88,3 @@ pytest tests.py
 - Google Gemini usage may incur billing based on quota.
 - You can replace Gemini with any LLM (like OpenAI or Claude) if preferred.
 
----
-
-## 📜 License
-
-This project is open-source under the [MIT License](LICENSE).

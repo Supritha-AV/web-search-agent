@@ -2,6 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import urllib.robotparser
 import re  # Added import
+from dotenv import load_dotenv
+load_dotenv()
 
 class WebScraper:
     def __init__(self):

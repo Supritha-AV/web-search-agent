@@ -3,6 +3,8 @@ import json
 import re
 import google.generativeai as genai
 from urllib.parse import urlparse
+from dotenv import load_dotenv
+load_dotenv()
 
 class ContentAnalyzer:
     def __init__(self):

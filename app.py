@@ -9,8 +9,8 @@ import os
 
 # Load environment variables
 load_dotenv()
-os.environ['GOOGLE_API_KEY'] = os.getenv("GOOGLE_API_KEY")
-os.environ['SERPAPI_API_KEY'] = os.getenv("SERPAPI_API_KEY")
+os.getenv("GOOGLE_API_KEY")
+os.getenv("SERPAPI_API_KEY")
 
 # Initialize session state for conversation history
 if "messages" not in st.session_state:

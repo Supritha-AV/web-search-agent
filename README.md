@@ -55,23 +55,17 @@ streamlit run app.py --server.port 8507
 
 ## ⚙️ Key Features
 
-- ✅ **Query Understanding**  
-  Handles factual, opinion-based, exploratory, and procedural queries
+- **Query Understanding**:Handles factual, opinion-based, exploratory, and procedural queries
 
-- ✅ **Smart Search Strategy**  
-  Prefers scrapable domains and filters out low-quality results
+- **Smart Search Strategy**:Prefers scrapable domains and filters out low-quality results
 
-- ✅ **Respectful Scraping**  
-  Adheres to `robots.txt` and ethical crawling practices
+- **Respectful Scraping**:Adheres to `robots.txt` and ethical crawling practices
 
-- ✅ **Content Scoring & Summarization**  
-  Evaluates content quality and condenses it into a clear summary
+- **Content Scoring & Summarization**:Evaluates content quality and condenses it into a clear summary
 
-- ✅ **Interactive Interface**  
-  Streamlit-based chatbot UI for a smooth research experience
-
+- **Interactive Interface**:Streamlit-based chatbot UI for a smooth research experience
+  
 ---
-
 ## 🧪 Testing
 
 Run unit tests with `pytest`:

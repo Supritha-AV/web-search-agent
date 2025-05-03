@@ -44,15 +44,7 @@ streamlit run app.py
 ```bash
 streamlit run app.py --server.port 8507
 ```
-
 ---
-
-## 🌐 Live Demo
-
-👉 [**Web Research Agent Live**](https://web-search-agent-ai.streamlit.app/)
-
----
-
 ## ⚙️ Key Features
 
 - **Query Understanding**:Handles factual, opinion-based, exploratory, and procedural queries
